@@ -32,7 +32,7 @@ controller.on('bot_channel_join', function (bot, message) {
 })
 
 controller.hears(['hello', 'hi'], ['direct_mention'], function (bot, message) {
-  bot.reply(message, 'Hello.')
+  bot.reply(message, 'Hello you HappyTechie genius.')
 })
 
 controller.hears(['hello', 'hi'], ['direct_message'], function (bot, message) {
