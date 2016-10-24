@@ -1,20 +1,3 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Gist
- @mikehug
- Watch 138
-  Star 4,562
-  Fork 819 howdyai/botkit
- Code  Issues 76  Pull requests 27  Projects 0  Pulse  Graphs
-Branch: master Find file Copy pathbotkit/slack_bot.js
-b4eb2e7  on 22 Sep
-@benbrown benbrown Lock down stats functionality and clean up some code
-3 contributors @benbrown @beyondlogical @aysark
-RawBlameHistory     
-247 lines (188 sloc)  7.62 KB
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
            ______     ______     ______   __  __     __     ______
           /\  == \   /\  __ \   /\__  _\ /\ \/ /    /\ \   /\__  _\
@@ -234,5 +217,3 @@ function formatUptime(uptime) {
     uptime = uptime + ' ' + unit;
     return uptime;
 }
-Contact GitHub API Training Shop Blog About
-© 2016 GitHub, Inc. Terms Privacy Security Status Help
